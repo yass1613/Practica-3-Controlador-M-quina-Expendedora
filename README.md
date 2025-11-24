@@ -30,4 +30,10 @@ Proceso completo en orden cronológico:
 
 3. Después de montarlo completo habiendo comprobado el correcto funcionamiento de todos los componentes, tenia que plantear el primer estado, el estado ARRANQUE. Donde como queria que hiciese dos acciones a la vez (parpadear el LED1 y mostrar mensaje en el LCD), por lo que como no se puede hacer multitasking en un sistema monocore, tanto esta como todas las peticiones de la práctica donde pidiesen algo similar usamos la libreria ArduinoThread para simular tareas que estan ocurriendo al mismo tiempo.
 
-4.    
+4. Despues implemento todos los estados de SERVICIO y comprabando su funcionamiento.
+
+5. Y por último, todos los estados de ADMIN y comprobando su funcionamiento.
+
+Inconvenientes físicos:
+- En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa.
+- En la prueba del LCD, la resistencia que va conectada a "  ", la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
