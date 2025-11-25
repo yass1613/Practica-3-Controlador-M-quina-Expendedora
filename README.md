@@ -34,6 +34,21 @@ Proceso completo en orden cronológico:
 
 5. Y por último, todos los estados de ADMIN y comprobando su funcionamiento.
 
-Inconvenientes físicos:
+### Inconvenientes físicos:
 - En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa.
 - En la prueba del LCD, la resistencia que va conectada a "  ", la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
+- El joysick tiene cambiados los ejes cuando lo conectas diractementa a la placa asi que lo conecta con cables y uso el joystick girado 90º en sentido horario con respecto a conectarlo directamente.
+- El boton ...
+- El sensor de ultrasonido a veces daba numeros negativos.
+- El sensor DHT daba algunos errores.
+
+### Incovenientes software:
+(Para todos estos incovenientes use los recursos mencionados en el siguiente aparatado)
+- No sabia como generar un número aleatorio de segundos para la preparación del café, y usar ese número para que el LED2 aumente su intensidad gradualmente.
+- No tenia muy claro como hacer los estados y pasar de uno a otro.
+
+### Recursos utilizados:
+* Librerias y apuntes vistos en clase.
+* ChatGPT (Para resolver algunas dudas y revisar la ortografia de esta memoria).
+* Mi Github (utilizé un código para calcular la distancia con el ultrasonido que hice este mismo año en la asignatura de Sensores y Actuadores).
+  
