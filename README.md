@@ -36,7 +36,7 @@ Proceso completo en orden cronológico:
 
 ### Inconvenientes físicos:
 - En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa.
-- En la prueba del LCD, la resistencia que va conectada a "  ", la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
+- En la prueba del LCD, la resistencia que va conectada al pin A del LCD, la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
 - El joysick tiene cambiados los ejes cuando lo conectas diractementa a la placa asi que lo conecta con cables y uso el joystick girado 90º en sentido horario con respecto a conectarlo directamente.
 - El boton ...
 - El sensor de ultrasonido a veces daba numeros negativos.
