@@ -49,6 +49,7 @@ Proceso completo en orden cronológico:
 (Para todos estos incovenientes use los recursos mencionados en el siguiente aparatado)
 - No sabia como generar un número aleatorio de segundos para la preparación del café, y usar ese número para que el LED2 aumente su intensidad gradualmente.
 - No tenia muy claro como hacer los estados y pasar de uno a otro.
+- "Esperando cliente" no cabia en una fila del LCD, asi que lo separe en dos.
 
 ### Recursos utilizados:
 * Librerias y apuntes vistos en clase.
