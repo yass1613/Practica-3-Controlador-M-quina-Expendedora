@@ -4,7 +4,7 @@
 
 ## Autor: Yassir El Kasmi
 ## Fecha de entrega: 27/11/2025
-© 2025 *Yassir El kasmi El kasmi*
+© 2025 *Yassir El Kasmi El Kasmi*
 
 Algunos derechos reservados. Este trabajo se entrega bajo la licencia **CC BY-SA 4.0**
 
@@ -57,6 +57,8 @@ Proceso completo en orden cronológico:
 
 5. Y por último, todos los estados de ADMIN y comprobando su funcionamiento.
 
+6. Además utilizar un watchdog de 2 segundos.
+
 ### Inconvenientes físicos:
 - En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa.
 - En la prueba del LCD, la resistencia que va conectada al pin A del LCD, la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
@@ -76,4 +78,7 @@ Proceso completo en orden cronológico:
 * Librerias y apuntes vistos en clase.
 * ChatGPT (Para resolver los inconvenientes y revisar la ortografia de esta memoria).
 * Mi Github (utilizé un código para calcular **la distancia con el ultrasonido y el metodo de antirrebote** que hice este mismo año en la asignatura de Sensores y Actuadores).
-  
+
+
+### Modelo de fritzing
+<img width="1541" height="891" alt="Captura desde 2025-11-26 22-19-23" src="https://github.com/user-attachments/assets/9acf263b-5699-4415-9f96-519ad8002b55" />
