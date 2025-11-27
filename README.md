@@ -83,3 +83,12 @@ Proceso completo en orden cronológico:
 
 ### Modelo de fritzing
 <img width="1541" height="891" alt="Captura desde 2025-11-26 22-19-23" src="https://github.com/user-attachments/assets/9acf263b-5699-4415-9f96-519ad8002b55" />
+
+
+### Video 
+(Dos enlaces por si uno no funciona.)
+
+https://youtu.be/AT21nVuCMdQ
+
+https://youtu.be/AT21nVuCMdQ?si=bIMnGKHddfn08fkB
+
