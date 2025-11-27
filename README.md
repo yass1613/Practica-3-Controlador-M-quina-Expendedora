@@ -73,6 +73,7 @@ Proceso completo en orden cronológico:
 - No tenia muy claro como hacer los estados y pasar de uno a otro.
 - "Esperando cliente" no cabia en una fila del LCD, asi que lo separe en dos con setCursor();.
 - No sabia como cambiar de un tipo de de datos a otro (int <---> float).
+- A veces contaba mas de un pulsación en el boton del joystick, asi que le puse interrupciones
 
 ### Recursos utilizados:
 * Librerias y apuntes vistos en clase.
