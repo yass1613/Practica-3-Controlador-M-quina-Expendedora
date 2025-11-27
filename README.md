@@ -49,10 +49,11 @@ Proceso completo en orden cronológico:
 (Para todos estos incovenientes use los recursos mencionados en el siguiente aparatado)
 - No sabia como generar un número aleatorio de segundos para la preparación del café, y usar ese número para que el LED2 aumente su intensidad gradualmente.
 - No tenia muy claro como hacer los estados y pasar de uno a otro.
-- "Esperando cliente" no cabia en una fila del LCD, asi que lo separe en dos.
+- "Esperando cliente" no cabia en una fila del LCD, asi que lo separe en dos con setCursor();.
+- No sabia como cambiar de un tipo de de datos a otro (int <0---> float).
 
 ### Recursos utilizados:
 * Librerias y apuntes vistos en clase.
-* ChatGPT (Para resolver algunas dudas y revisar la ortografia de esta memoria).
-* Mi Github (utilizé un código para calcular la distancia con el ultrasonido que hice este mismo año en la asignatura de Sensores y Actuadores).
+* ChatGPT (Para resolver los inconvenientes y revisar la ortografia de esta memoria).
+* Mi Github (utilizé un código para calcular **la distancia con el ultrasonido y el metodo de antirrebote** que hice este mismo año en la asignatura de Sensores y Actuadores).
   
