@@ -60,7 +60,7 @@ Proceso completo en orden cronológico:
 6. Además utilizar un watchdog de 2 segundos.
 
 ### Inconvenientes físicos:
-- En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa.
+- En mi kit no venia placa protoboard ni potenciometro, después de pedir la placa protoboard, me dieron una placa defectuosa (donde costaba mucho esfuerzo conectar cualquier componente, habia que hacer una cantidad de fuerza totalmente exagerada) y tuve que pedir una segunda placa. Además de un joystick defectuoso.
 - En la prueba del LCD, la resistencia que va conectada al pin A del LCD, la introduje demasiado en el rail positivo de la placa lo que provocaba que cruzase al rail negativo y se generase un cortocircutio.
 - El joysick tiene cambiados los ejes cuando lo conectas diractementa a la placa asi que lo conecta con cables y uso el joystick girado 90º en sentido horario con respecto a conectarlo directamente.
 - El boton lo conectaba mal, conectandolo como si no implenetase INPUT_PULLUP, es decir, usaba tres cables (5v---->PIN---->BOTON---->GND), en vez de dos que son los que hacen falta ( PIN--->BOTON--->GND).
