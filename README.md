@@ -1,4 +1,4 @@
-# Practica-3-Controlador-M-quina-Expendedora
+# Practica-3-Controlador-Máquina-Expendedora
 
 ---
 
@@ -9,6 +9,26 @@
 Algunos derechos reservados. Este trabajo se entrega bajo la licencia **CC BY-SA 4.0**
 
 ---
+### Hardware
+Arduino UNO: La placa principal de control.
+
+LCD: Pantalla para mostrar información al usuario.
+
+Joystick: Módulo de entrada para la navegación y selección.
+
+DHT11: Sensor de temperatura y humedad.
+
+HC-SR04: Sensor ultrasónico para medir la distancia.
+
+LEDs: Indicadores visuales de estado.
+
+Botón: Interruptor para controlar el sistema.
+
+Resistencias: Para limitar la corriente y proteger los componentes.
+
+Protoboard: Para montar el circuito de prueba.
+
+Cables de conexión: Para realizar las conexiones entre los componentes.
 
 ### Objetivo
 Diseñar y programar un sistema completo, basado en Arduino, que controle el funcionamiento de una máquina expendedora de café, utilizando tanto sensores (ultrasonido, DHT...) como actuadores (LEDS, LCD...).
@@ -50,7 +70,7 @@ Proceso completo en orden cronológico:
 - No sabia como generar un número aleatorio de segundos para la preparación del café, y usar ese número para que el LED2 aumente su intensidad gradualmente.
 - No tenia muy claro como hacer los estados y pasar de uno a otro.
 - "Esperando cliente" no cabia en una fila del LCD, asi que lo separe en dos con setCursor();.
-- No sabia como cambiar de un tipo de de datos a otro (int <0---> float).
+- No sabia como cambiar de un tipo de de datos a otro (int <---> float).
 
 ### Recursos utilizados:
 * Librerias y apuntes vistos en clase.
